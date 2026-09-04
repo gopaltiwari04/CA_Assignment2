@@ -1,0 +1,20 @@
+Global frequency set at 1000000000000 ticks per second
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.0.0.0
+gem5 compiled Sep  4 2026 14:41:07
+gem5 started Sep  4 2026 14:46:31
+gem5 executing on Govind, pid 32160
+command line: build/X86/gem5.opt --debug-flags=VECTOR,RESULTDOT,COMPARE,RESULTMAC /home/tewar/CA_Assignment2/part1/configs/vector_operations_config.py
+
+Starting VectorOperations simulation...
+    150: vector_operations: A = 1 2 3 4 5 
+    150: vector_operations: B = 5 4 3 2 1 
+    150: vector_operations: Dot Product = 35
+VectorDotProduct: 35
+   1500: vector_operations: Comparison result: 0 0 1 0 0 
+VectorCompare: 0 0 1 0 0 
+  15000: vector_operations: MAC result: 15 18 19 18 15 
+VectorMAC: 15 18 19 18 15 
+Simulation finished at tick 15000 because simulate() limit reached
