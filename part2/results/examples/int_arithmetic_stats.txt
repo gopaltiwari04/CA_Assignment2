@@ -1,0 +1,8 @@
+===== int_arithmetic : FU1 ROI statistics =====
+simSeconds                                   0.017316                       # Number of seconds simulated (Second)
+simTicks                                  17316363303                       # Number of ticks simulated (Tick)
+simInsts                                     51626401                       # Number of instructions simulated (Count)
+simOps                                       75167474                       # Number of ops (including micro ops) simulated (Count)
+board.processor.cores.core.numCycles         52001091                       # Number of cpu cycles simulated (Cycle)
+board.processor.cores.core.cpi               1.019629                       # CPI: cycles per instruction (core level) ((Cycle/Count))
+board.processor.cores.core.ipc               0.980749                       # IPC: instructions per cycle (core level) ((Count/Cycle))
